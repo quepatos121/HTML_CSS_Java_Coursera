@@ -3,7 +3,7 @@ p {
 }
 
 #secTit {position: absolute;
-         float: right;
+         right: 50px;
   }
 
 #p1 { 
@@ -21,7 +21,7 @@ p {
   position: relative;
 }
 
-@media (min-width: 992px){
+@media (min-width: 992px) {
   #p1 {width: 33.33%;
     }
   #p2 {width: 33.33%;
@@ -30,7 +30,7 @@ p {
     }
 }
 
-@media (min-width: 768px) and (max-width: 991px){
+@media (min-width: 768px) and (max-width: 991px) {
   #p1 {width: 50%;
     }
   #p2 {width: 50%;
@@ -40,7 +40,7 @@ p {
 }
   
 
-@media (max-width:767px){
+@media (max-width:767px) {
   #p1 {width: 100%;
       }
   #p2 {width: 100%;
