@@ -1,15 +1,9 @@
+
 #h1{ text-align:center; }
 
 .row{
   width: =100%;
 }
-
-#secTit {position:absolute;
-        text-align: center;
-        left:300px;
-        box-sizing: border-box;
-        color:whitesmoke;
-  }
 
 
 @media (min-width: 992px){
