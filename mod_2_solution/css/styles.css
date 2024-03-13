@@ -1,8 +1,49 @@
-#p1 {
+p { 
+  border: 3px solid;
+}
+
+#secTit {position: absolute;
+         position: top-right;}
+
+#p1 { 
+  background-color: #DEB887;
+  position: relative;
 }
 
 #p2 {
+  background-color: #5F9EA0;
+  position: relative;
 }
 
 #p3 {
+  background-color: #FF7F50;
+  position: relative;
+}
+
+@media (min-width: 992px){
+  #p1 {width: 33.33%;
+    }
+  #p2 {width: 33.33%;
+    }
+  #p3 {widht: 33.33%;
+    }
+}
+
+@media (min-width: 768px and max-width: 991px){
+  #p1 {width: 50%;
+    }
+  #p2 {width: 50%;
+    } 
+  #p3 {width: 100%;
+    }
+}
+  
+
+@media (max-width:767px){
+  #p1 {width: 100%;
+      }
+  #p2 {width: 100%;
+      }
+  #p3 {width: 100%;
+      }
 }
