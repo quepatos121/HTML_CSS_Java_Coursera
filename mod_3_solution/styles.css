@@ -1,0 +1,138 @@
+
+#h1{ text-align:center; }
+
+.row{
+  width: =100%;
+}
+
+
+@media (min-width: 992px){
+  .box1_1{
+  background-color:grey;
+  border:1px solid black;
+  padding:30px 10px 10px 10px;
+  position: relative;
+  margin:5px;
+  float:left;
+  width:32%;
+  box-sizing: border-box;
+  }
+  .box1_2{
+  background-color:lightsalmon;
+  border:1px solid black;
+  padding:30px 10px 10px 10px;
+  position: relative;
+  margin:5px;
+  float:left;
+  width:32%;
+  box-sizing: border-box;
+  }
+  .box1_3{
+  background-color:lightseagreen;
+  border:1px solid black;
+  padding:30px 10px 10px 10px;
+  position: relative;
+  margin:5px;
+  float:left;
+  width:32%;
+  box-sizing: border-box;
+  }
+  .secTit1 {position:absolute;
+        text-align: center;
+        right:0%;
+        top:0%;
+        color:black;
+        border:1px solid black;
+        background-color:mintcream ;
+  }
+ } 
+
+@media (min-width: 768px) and (max-width: 991px){
+ .box2_1{
+  background-color:grey;
+  border:1px solid black;
+  padding:30px 10px 10px 10px;
+  position: relative;
+  margin:5px;
+  float:left;
+  width:45%;
+  box-sizing: border-box;
+  }
+  .box2_2{
+  background-color:lightsalmon;
+  border:1px solid black;
+  padding:30px 10px 10px 10px;
+  position: relative;
+  margin:5px;
+  float:left;
+  width:45%;
+  box-sizing: border-box;
+  }
+  .box2_3{
+  background-color:lightseagreen;
+  border:1px solid black;
+  position:relative;
+  padding:40px 10px 10px 10px;
+  margin:5px;
+  float:left;
+  width:91.5%;
+  box-sizing: border-box;
+  }
+  .secTit2 {position:absolute;
+        text-align: center;
+        right:0%;
+        top:0%;
+        color:black;
+        border:1px solid black;
+        width:60px;
+        background-color:mintcream ;
+  }
+  .secTit2_1 {position:absolute;
+        text-align: center;
+        right:0%;
+        top:0%;
+        color:black;
+        border:1px solid black;
+        width:60px;
+        background-color:mintcream ;
+  }
+}
+
+@media (min-width:50px) and (max-width:767px){
+  .box3_1{
+  background-color:grey;
+  border:1px solid black;
+  padding:30px 10px 10px 10px;
+  position: relative;
+  margin:5px;
+  width:100%;
+  box-sizing: border-box;
+  }
+  .box3_2{
+  background-color:lightsalmon;
+  border:1px solid black;
+  padding:30px 10px 10px 10px;
+  position: relative;
+  margin:5px;
+  width:100%;
+  box-sizing: border-box;
+  }
+  .box3_3{
+  background-color:lightseagreen;
+  border:1px solid black;
+  padding:30px 10px 10px 10px;
+  position: relative;
+  margin:5px;
+  width:100%;
+  box-sizing: border-box;
+  }
+  .secTit3 {position:absolute;
+        text-align: center;
+        right:0%;
+        top:0%;
+        color:black;
+        border:1px solid black;
+        width:60px;
+        background-color:mintcream ;
+  }
+}  
